@@ -44,7 +44,7 @@ export function InitialView({ onSubmit }: InitialViewProps) {
         <div className="flex flex-col h-full w-full px-6">
             <div className="flex-1 flex flex-col items-center justify-center">
                 <div className="flex-col items-center w-full max-w-4xl relative px-0 xl:px-8">
-                    <div className="mb-10 relative flex items-center justify-center">
+                    <div className="mb-4 relative flex items-center justify-center">
                         <div
                             className="absolute h-[35px]"
                             style={{
@@ -75,6 +75,10 @@ export function InitialView({ onSubmit }: InitialViewProps) {
                         </h1>
                     </div>
 
+                    <p className="text-center text-sm text-gray-500 mb-8 mt-6 italic">
+                        Ask Mike anything about Nevada law.
+                    </p>
+
                     <ChatInput
                         onSubmit={onSubmit}
                         onCancel={() => {}}
@@ -84,7 +88,7 @@ export function InitialView({ onSubmit }: InitialViewProps) {
 
                     <div className="text-center">
                         <p className="text-xs py-3 mb-3 text-gray-500">
-                            AI can make mistakes. Answers are not legal advice.
+                            AI can make mistakes. Answers are not legal advice and should be reviewed by a licensed Nevada attorney.
                         </p>
                     </div>
                 </div>
