@@ -1,6 +1,6 @@
-# Mike
+# Mike Kaufmann
 
-Mike is a legal document assistant with a Next.js frontend, an Express backend, Supabase Auth/Postgres, and Cloudflare R2-compatible object storage.
+Mike Kaufmann is a Dutch-focused legal AI assistant, forked from Will Chen's Mike (https://github.com/willchen96/mike) — an open-source recreation of Harvey and Legora built in two weeks. Will's original work forms the entire foundation of this project.
 
 Website: [mikeoss.com](https://mikeoss.com)
 
